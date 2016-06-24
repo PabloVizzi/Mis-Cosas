@@ -1,0 +1,16 @@
+polyfill: es un parche sobre una funcionalidad que no es soportada por algun navegador
+	polyfill localstorage
+
+modernizr: libreria para detectar que capacidades tiene 
+
+restful api:
+	GET - Leer
+	POST - Crear
+	PUT - Modificar
+	DELETE - Borrar
+
+animate.css: libreria que permite agregar a nuestra pagina componentes animados solo usando css muy sencillamente
+	https://daneden.github.io/animate.css/
+	
+fontaweasome: libreria que permite agregar a nuestra pagina iconos personalizados muy sencillamente
+	http://fontawesome.io/

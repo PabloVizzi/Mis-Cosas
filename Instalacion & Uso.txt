@@ -1,0 +1,40 @@
+Repositorio de Codigo Github (https://github.com/)
+
+Instalacion de Componentes Generales:
+
+1 - nodejs (https://nodejs.org/en/ - LST)
+	node-v4.4.5-x86.msi
+2 - Git (https://git-for-windows.github.io/)
+	Git-2.9.0-32-bit.exe
+	Una vez instalado agregar en el PATH la ruta del binario git.exe (C:\Archivos de programa\Git\bin)
+3 - Bower (https://www.npmjs.com/package/bower)
+	Abrir la consola: Node.js command prompt
+	Poner: npm install -g bower
+4 - HTTP-Server (https://www.npmjs.com/package/http-server)
+	Abrir la consola: Node.js command prompt
+	Poner: npm install http-server -g
+	Uso:
+		Crear una carpeta en alguna ubicacion
+		Abrir la consola: Node.js command prompt
+		Moverse a la carpeta antes creada
+		Poner: http-server
+			Esto levantara el http-server en la carpeta actual, y se podra acceder a su contenido mediante las direcciones indicadas
+		En la carpeta, poner por ejemplo el index.html
+		la misma se podra visualizar por ejemplo poniendo en el browser: http://127.0.0.1:8080/index.html
+		
+Instalacion de Componentes propios de cada pagina
+
+	Abrir la consola: Node.js command prompt
+	Moverse a la carpeta antes creada (de nuestro projecto)
+		NOTA: 
+			Los componentes instalados a continuacion se instalaran en la carpeta "bower_components" que se creara automaticamente
+			Los componentes instalados a continuacion se agregaran al fichero "bower.json"
+
+	Poner: 
+		
+		bower install angular-route --save
+			(https://docs.angularjs.org/api/ngRoute)
+			(esto instala en la carpeta de mi projecto el componente angular-route)
+		
+		bower install bootstrap fontaweasome animate.css --save
+			(esto instala en la carpeta de mi projecto el componente bootstrap, fontaweasome y animate.css)
